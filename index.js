@@ -32,8 +32,8 @@ const ancla1 = mindarThree.addAnchor(0);
 const ancla2 = mindarThree.addAnchor(1);
 
 //----- Cargamos los modelos
-cargarModelo("./modelo/Ceramica.glb", ancla1, 0.3);
-cargarModelo("./modelo/Ceramica.glb", ancla2, 0.3);
+cargarModelo("./modelo/modeloMeteorito_lowPoly.glb", ancla1, 0.3);
+cargarModelo("./modelo/modeloMeteorito_lowPoly.glb", ancla2, 0.3);
 
 const start = async () => {
   await mindarThree.start();
